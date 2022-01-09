@@ -1,5 +1,5 @@
 module CGtk [system] {
-  header "/usr/local/include/gtk-4.0/gtk/gtk.h"
+  header "shim.h"
 
   link "gailutil-3.0"
   link "gdk-3.0"
